@@ -1,0 +1,203 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2074b6;
+  color: #fff;
+}
+
+header {
+  background-color: #fff;
+  height: 55px;
+  display: grid;
+  grid-template-columns: 18% 82%;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  margin: 0;
+  padding-left: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2074b6;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #2074b6;
+  color: #fff;
+  padding: 20px;
+}
+
+div a img:hover {
+  padding-left: 20px;
+  height: 52px;
+}
+
+.main-title {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-title img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 300px;
+}
+
+.main-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.2em;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.main-link {
+  position: relative;
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  background-color: #0a86ad;
+  margin-top: 0%;
+  padding: 20px;
+}
+
+.js-link {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2074b6;
+}
+
+.ajax-link {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  color: #2074b6;
+}
+
+.styled-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.styled-link:hover {
+  background-color: #0056b3;
+}
+
+#palindrome-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#palindrome-button:hover {
+  background-color: #0056b3;
+}
+
+#max-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#max-button:hover {
+  background-color: #0056b3;
+}
+
+.card-link {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #2074b6;
+}
+
+.card-link #vocals {
+  width: 300px;
+  height: 70px;
+
+}
+
+
+#vocal-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#vocal-button:hover {
+  background-color: #0056b3;
+}
+
+#url-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#url-button:hover {
+  background-color: #0056b3;
+}
+
+.card-link #url-text {
+  width: 500px;
+  height: 70px;
+
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad 2</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./img/unir.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./ejercicios_js.html">Ejercicios JS</a></li>
+                <li><a href="./ejercicios_ajax.html">Ejercicios AJAX</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="main-title">
+        <img src="./img/ajax.png" alt="Fondo">
+        <div class="main-text">
+            <h1>Ejercicios de Tecnología AJAX</h1>
+        </div>
+      </div>
+    
+      <div class="main-link">
+        
+        <div class="card-link">
+          <h2>Solicitud</h2>
+          <label for="url-text">Ingrese la url</label>
+          <textarea id="url-text" name="url-text"></textarea>
+          <button id="url-button">Mostrar contenido</button>
+          
+
+        </div>
+        
+        <div class="card-link">
+          <h2>Zona Estados</h2>
+          <div id="estadosDePeticion"></div>
+          
+
+        </div>
+        <div class="card-link">
+          <h2>Zona Cabeceras HTTP</h2>
+          <div id="cabecerasHTTP"></div>
+          
+
+        </div>
+        <div class="card-link">
+          <h2>Codigo de Estados</h2>
+          <div id="codigoDeEstado"></div>
+
+        </div>
+        
+        <div class="card-link">
+          <h2>Zona Contenidos</h2>
+          <div id="textoDeRespuesta"></div>
+          
+
+        </div>
+        
+
+      </div>
+        
+    </main>
+    <script src="./js/ejerciciosAJAX.js"></script>
+  </body>
+</html>

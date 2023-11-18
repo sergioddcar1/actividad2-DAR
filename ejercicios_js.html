@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad 2</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./img/unir.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./ejercicios_js.html">Ejercicios JS</a></li>
+                <li><a href="./ejercicios_ajax.html">Ejercicios AJAX</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="main-title">
+        <img src="./img/js.png" alt="Fondo">
+        <div class="main-text">
+            <h1>Ejercicios de Javascript</h1>
+        </div>
+      </div>
+    
+      <div class="main-link">
+        <div class="card-link">
+            <h2>Palíndromo</h2>
+            <label for="palindrome">Ingrese el texto para comprobar si es un palíndromo:</label>
+            <input type="text" id="palindrome" name="palindrome">
+            <button id="palindrome-button">Comprobar</button>
+            <div id="answer1"></div>
+            
+            
+        </div>
+        <div class="card-link">
+            <h2>Número mayor</h2>
+            <label for="number1">Ingrese el primer número:</label>
+            <input type="text" id="number1" name="number1">
+            <label for="number2">Ingrese el segundo número:</label>
+            <input type="text" id="number2" name="number2">
+            <button id="max-button">Comprobar</button>
+            <div id="answer2"></div>
+            
+
+        </div>
+
+        <div class="card-link">
+          <h2>Vocales</h2>
+          <label for="vocals">Ingrese el texto (mínimo 160 caracteres)</label>
+          <textarea id="vocals" name="vocals"></textarea>
+          <button id="vocal-button">Comprobar</button>
+          <div id="answer3"></div>
+
+        </div>
+      </div>
+    </main>
+    <script src="./js/ejerciciosJS.js"></script>
+  </body>
+</html>
